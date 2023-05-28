@@ -1,16 +1,28 @@
-# hacaton_app
+# Мобильное приложение для интерактивно монитогринга внутренней отделки помещения в режиме реального времени
 
-A new Flutter project.
 
-## Getting Started
+## Установка
 
-This project is a starting point for a Flutter application.
+Для того, чтобы выполнить build на локальном устройстве, необходимо установить flutter. 
 
-A few resources to get you started if this is your first Flutter project:
+После этого необходимо выполнить команду
+bash
+  flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+в корневой папке проекта для установки необходимых библиотек.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+В зависимости от типа Вашей ОС для установки библиотек необходимо выполнить команду install.bat для ОС Windows, либо install.sh для Mac OS или Linux.
+
+Далее для build'a приложения выполняем команду:
+bash
+  flutter run
+
+
+ОС: Android 5.0 и выше
+
+
+## Authors
+
+- [Андрей Безбородов](https://github.com/andreibezborodov)
+- [Илья Алиев](https://www.github.com/alievilya)
+- [Григорий Макаров](https://www.github.com/grifon-239)
